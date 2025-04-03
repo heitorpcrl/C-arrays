@@ -3,6 +3,9 @@
 ```mermaid
 graph LR
 A[listas fixas] ----> B[Arrays dinamicas]
+```
+
+##
 
 
 
