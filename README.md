@@ -2,7 +2,7 @@
 
 ```mermaid
 graph LR
-A[lista fixa] ----> B[Arrays dinamicas(listas dinamicas)]
+A[listas fixas] ----> B[Arrays dinamicas]
 
 
 
