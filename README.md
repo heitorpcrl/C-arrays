@@ -21,7 +21,7 @@ As listas dinamicas sao encadeadas em um circuito que funciona com as seguintes 
 
 ##Operações basicas
 
-Criação e inicialização (Padrão dinâmico):
+-Criação e inicialização (Padrão dinâmico):
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,7 +31,7 @@ int main() {
     int tamanho = 0;    // Tamanho atual da lista
 ```
 
-Inserção (Padrão dinâmico):
+-Inserção (Padrão dinâmico):
 
 ```
 for (int i = 0; i < 3; i++) {
@@ -44,7 +44,7 @@ for (int i = 0; i < 3; i++) {
         tamanho++;
     }
 ```
-Remoção (Padrão dinâmico):
+-Remoção (Padrão dinâmico):
 ```
 int i, j;
         int encontrado = 0;
@@ -127,7 +127,7 @@ int main() {
 }
 ```
 
-## VANTAGENS E DESVANTAGENS
+## Vantagens e Desvantagens
 
 A desvantagem da lista dinamica é a necessidade de alocação e liberação da memoria de valores introduzidos, porem exponencialmente mais versatil que o modelo de lista estatica.
 
@@ -135,8 +135,8 @@ Por sua vez a lista estatica é mais simples, porém funcionando apenas em um mo
 
 ## Referencias:
 
--Livro: https://dokumen.pub/c-a-linguagem-de-programaao-padrao-ansi-2-ediao-0131103628-8570015860-f-6709486.html
--Site: https://pt.stackoverflow.com/search?q=listas+em+C
+- Livro: https://dokumen.pub/c-a-linguagem-de-programaao-padrao-ansi-2-ediao-0131103628-8570015860-f-6709486.html
+- Site: https://pt.stackoverflow.com/search?q=listas+em+C
 
 
 
