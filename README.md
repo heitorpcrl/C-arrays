@@ -20,7 +20,8 @@ As listas dinamicas sao encadeadas em um circuito que funciona com as seguintes 
 #Implementação em C
 
 ##Operações basicas
-*Criação e inicialização (Padrão dinâmico):
+
+-*Criação e inicialização (Padrão dinâmico):
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,7 +31,8 @@ int main() {
     int tamanho = 0;    // Tamanho atual da lista
 ```
 
-*Inserção (Padrão dinâmico):
+-*Inserção (Padrão dinâmico):
+
 ```
 for (int i = 0; i < 3; i++) {
         lista = (int*)realloc(lista, (tamanho + 1) * sizeof(int));
@@ -42,7 +44,7 @@ for (int i = 0; i < 3; i++) {
         tamanho++;
     }
 ```
-*Remoção (Padrão dinâmico):
+-*Remoção (Padrão dinâmico):
 ```
 int i, j;
         int encontrado = 0;
@@ -133,8 +135,8 @@ Por sua vez a lista estatica é mais simples, porém funcionando apenas em um mo
 
 ## Referencias:
 
-Livro: https://dokumen.pub/c-a-linguagem-de-programaao-padrao-ansi-2-ediao-0131103628-8570015860-f-6709486.html
-Site: https://pt.stackoverflow.com/search?q=listas+em+C
+-Livro: https://dokumen.pub/c-a-linguagem-de-programaao-padrao-ansi-2-ediao-0131103628-8570015860-f-6709486.html
+-Site: https://pt.stackoverflow.com/search?q=listas+em+C
 
 
 
